@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+
+# Preserve the exact bytes used by results/archive_index.json checksums.
+/results/** -text

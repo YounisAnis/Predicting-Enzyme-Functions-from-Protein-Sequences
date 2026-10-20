@@ -1,0 +1,60 @@
+# Original biological data and third-party weights stay local.
+/data/*
+!/data/manifest.json
+
+# Generated experiments, large caches, and local presentation artifacts.
+/outputs/
+/deliverables/
+/.deck_work/
+/.poster_work/
+/*.pptx
+/*.pdf
+
+# Python, notebook, IDE and OS scratch files.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+~$*
+
+# Model/package caches and generated binary arrays.
+.cache/
+.hf_home/
+.torch/
+wandb/
+mlruns/
+node_modules/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.safetensors
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+*.sqlite
+*.sqlite3
+*.db

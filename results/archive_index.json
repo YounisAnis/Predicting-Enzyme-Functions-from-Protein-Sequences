@@ -1,0 +1,211 @@
+{
+  "archive_scope": "Main fold0 only; settings10,30,50,70; split100 is data-audit only.",
+  "source_manifest": "results/run_manifest.json",
+  "files": [
+    {
+      "path": "results/stage3_data_audit.json",
+      "original_archive_path": "outputs/results/stage3_data_audit.json",
+      "sha256": "2810c52b020451481ffd7b9ba22a7a359b47951c01dab631f411d66d035ede2e",
+      "bytes": 3871,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage4_legacy_forensic.json",
+      "original_archive_path": "outputs/results/stage4_legacy_forensic.json",
+      "sha256": "df92669acdc8a1676a8d90d51441aaa8fc4d069f49c489c742bdbf1f4cf76ed3",
+      "bytes": 450,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/run_manifest.json",
+      "original_archive_path": "outputs/results/run_manifest.json",
+      "sha256": "962e1ab3f9a8a2c7ab7436ecf50c0ff3fc6533b99d3488ea147665101110c78b",
+      "bytes": 2974,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/metrics_long_fold0.csv",
+      "original_archive_path": "outputs/results/metrics_long_fold0.csv",
+      "sha256": "759c7fe26e4663e05489ea4e41cb48a9470bccd49e79df79dce0be7557fd5931",
+      "bytes": 73303,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage5_aac_split10_fold0.json",
+      "original_archive_path": "outputs/results/stage5_aac_split10_fold0.json",
+      "sha256": "6485a4f6c48fc672277fadf25be8b8ca0cb23361f361cffcb04f4b408dc07af5",
+      "bytes": 3822,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage11_diamond_split10_fold0.json",
+      "original_archive_path": "outputs/results/stage11_diamond_split10_fold0.json",
+      "sha256": "7a61faf6d81199a6a4b2c4bb5ea1208ffb90fb935b122d75b33c9963b9614130",
+      "bytes": 3710,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/thresholds_esm2_650M_split10_fold0.json",
+      "original_archive_path": "outputs/results/thresholds_esm2_650M_split10_fold0.json",
+      "sha256": "31991fe7e7be6df2ac935149453ab86abc2bc25e849b3554992093bdeae11afe",
+      "bytes": 398,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H1_centroid_esm2_650M_split10_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H1_centroid_esm2_650M_split10_fold0.json",
+      "sha256": "04ab21b1cdb0b521972b048143294949d94c8bdd75d7c90c76c0b3dc498b10c5",
+      "bytes": 3813,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H2_linear_esm2_650M_split10_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H2_linear_esm2_650M_split10_fold0.json",
+      "sha256": "178bc64c42525572013c1f6c23fbe14039e91092259d5076d0fc5e3e49b9c940",
+      "bytes": 3769,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H3_mlp_esm2_650M_split10_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H3_mlp_esm2_650M_split10_fold0.json",
+      "sha256": "0ad8394fba633bb98d5c576dc0724b54371d11e014ef58adf9d47f016528fea5",
+      "bytes": 3823,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage5_aac_split30_fold0.json",
+      "original_archive_path": "outputs/results/stage5_aac_split30_fold0.json",
+      "sha256": "fba3ca09cba49b8fba9ccdfd9a5f50a9b7cb71fa1ca08f7271cd638d03355f8f",
+      "bytes": 3815,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage11_diamond_split30_fold0.json",
+      "original_archive_path": "outputs/results/stage11_diamond_split30_fold0.json",
+      "sha256": "00e59452208446c4bf64ed3234c699563ef2293f22eb361ec4a85518a8e5baaa",
+      "bytes": 3710,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/thresholds_esm2_650M_split30_fold0.json",
+      "original_archive_path": "outputs/results/thresholds_esm2_650M_split30_fold0.json",
+      "sha256": "58edd5edbc52acb9562f8013abca55f3d8affa78c8683691802d021a9a64c3ec",
+      "bytes": 392,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H1_centroid_esm2_650M_split30_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H1_centroid_esm2_650M_split30_fold0.json",
+      "sha256": "1fd377d51ef7732db738787ea45944996984f3f1058077e9f342b72565963484",
+      "bytes": 3811,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H2_linear_esm2_650M_split30_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H2_linear_esm2_650M_split30_fold0.json",
+      "sha256": "834acd96b1a1d47444ea014e4037fe659f6de6411a9c385aae67b83e3466150b",
+      "bytes": 3775,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H3_mlp_esm2_650M_split30_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H3_mlp_esm2_650M_split30_fold0.json",
+      "sha256": "91f3163af7f71eae705929a3660c9ef47b6b1d67c903628758466647b4f40992",
+      "bytes": 3781,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage5_aac_split50_fold0.json",
+      "original_archive_path": "outputs/results/stage5_aac_split50_fold0.json",
+      "sha256": "f24faaf84b8c442d83e29a57b3831e694201797ac91c9ab3356ee03aa1296c9d",
+      "bytes": 3801,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage11_diamond_split50_fold0.json",
+      "original_archive_path": "outputs/results/stage11_diamond_split50_fold0.json",
+      "sha256": "2877488f5e3328fc969a6f00e78dabfeb5d20615af0a92bc520e1f427eb89e77",
+      "bytes": 3704,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/thresholds_esm2_650M_split50_fold0.json",
+      "original_archive_path": "outputs/results/thresholds_esm2_650M_split50_fold0.json",
+      "sha256": "04e5ebb7d254f9ff3bac8d4c70e107903eb998333bae4e97b48a6d4beb69060e",
+      "bytes": 388,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H1_centroid_esm2_650M_split50_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H1_centroid_esm2_650M_split50_fold0.json",
+      "sha256": "d21c1ee327834bb501c5982071f5a80eaef2383db9daacfb65a625588c079052",
+      "bytes": 3794,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H2_linear_esm2_650M_split50_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H2_linear_esm2_650M_split50_fold0.json",
+      "sha256": "7b93250fbf2bf7f597b5ac8b180d15804d605e0f1ff84b4e50f1ba8d493be694",
+      "bytes": 3756,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H3_mlp_esm2_650M_split50_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H3_mlp_esm2_650M_split50_fold0.json",
+      "sha256": "cbe5cc761884eda12f0d162ef5f3a82651cf28510206388db23d459aa5959d47",
+      "bytes": 3797,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage5_aac_split70_fold0.json",
+      "original_archive_path": "outputs/results/stage5_aac_split70_fold0.json",
+      "sha256": "a2fd28ebdb4cd6cd40b6b1d15eebb37859233bc21f63347c926c3b1d6b84d67c",
+      "bytes": 3797,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage11_diamond_split70_fold0.json",
+      "original_archive_path": "outputs/results/stage11_diamond_split70_fold0.json",
+      "sha256": "5f95ef32f182bb8e759a5e85755988cb8a2d76e4569c3ea260b1838c75412300",
+      "bytes": 3707,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/thresholds_esm2_650M_split70_fold0.json",
+      "original_archive_path": "outputs/results/thresholds_esm2_650M_split70_fold0.json",
+      "sha256": "5af7267e7b9db6eadc5b47c4ae289f9b881894c4bebeb232d55c526a40ea8d02",
+      "bytes": 384,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H1_centroid_esm2_650M_split70_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H1_centroid_esm2_650M_split70_fold0.json",
+      "sha256": "fdc5ce7d42c61c265476e1d5f1482dad3f461c4e416bdfcc449c100335e6fa0e",
+      "bytes": 3796,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H2_linear_esm2_650M_split70_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H2_linear_esm2_650M_split70_fold0.json",
+      "sha256": "f7dacda3f52f7dca9e071760010687e435c8f83f52c4530b9995bf1625ff0df1",
+      "bytes": 3791,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    },
+    {
+      "path": "results/stage10_H3_mlp_esm2_650M_split70_fold0.json",
+      "original_archive_path": "outputs/results/stage10_H3_mlp_esm2_650M_split70_fold0.json",
+      "sha256": "07ce97cb90dc30d04adaa00aac65f70bbb1d4696f7056c29ddd702b3995047c1",
+      "bytes": 3793,
+      "metadata_sanitization": "No absolute/user paths present in selected artifact; original scalar content preserved."
+    }
+  ],
+  "excluded": [
+    "smoke artifacts",
+    "model weights",
+    "arrays and embedding ID lists",
+    "raw DIAMOND hits",
+    "label-space lists",
+    "setup probe containing a personal Drive path",
+    "unverified external CLEAN reproduction summary"
+  ]
+}

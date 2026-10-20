@@ -1,0 +1,87 @@
+{
+  "notebook": "02_final_ec_pipeline.ipynb",
+  "generated_utc": "2026-09-04T09:31:14Z",
+  "smoke_test": false,
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "",
+    "scikit_learn": "1.6.1",
+    "torch": "2.11.0+cu128",
+    "matplotlib": "3.10.0",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "gpu_total_mem_gb": 15.64,
+    "system_ram_gb": 13.61,
+    "transformers": "5.16.1",
+    "drive_free_gb": 66.65
+  },
+  "seeds": {
+    "python_numpy_torch": 42
+  },
+  "flags": {
+    "SPLITS_TO_RUN": [
+      10,
+      30,
+      50,
+      70
+    ],
+    "FOLD": 0,
+    "RUN_SPLIT100": false,
+    "ESM_MODEL_ID": "facebook/esm2_t33_650M_UR50D",
+    "EMB_TAG": "esm2_650M",
+    "SECOND_PASS_150M": false,
+    "ESM_MODEL_ID_150M": "facebook/esm2_t30_150M_UR50D",
+    "MAX_LEN": 1022,
+    "MAX_TOKENS_BATCH": 16384,
+    "SHARD_SIZE": 2000,
+    "KEEP_SHARDS": false,
+    "RUN_LEGACY_FORENSIC": true,
+    "RUN_AAC_BASELINE": true,
+    "RUN_DIAMOND": true,
+    "FORCE_RECOMPUTE": false,
+    "HEAD_EPOCHS": 60,
+    "EFFECTIVE_EPOCHS": 60,
+    "HEAD_BATCH": 512,
+    "HEAD_LR": 0.001,
+    "HEAD_WEIGHT_DECAY": 0.0001,
+    "HEAD_HIDDEN": 1024,
+    "HEAD_DROPOUT": 0.3,
+    "EARLY_STOP_PATIENCE": 5,
+    "VAL_FRACTION": 0.1,
+    "EVAL_CHUNK": 4096
+  },
+  "stage_wall_clock_seconds": {
+    "Stage 2 - load and validate every split": 26.4,
+    "Stage 3 - characterisation and leakage audit": 0.71,
+    "Stage 3 - assertions": 0.0,
+    "Stage 4 - legacy-bug forensic reproduction": 0.24,
+    "Stage 5 - honest AAC baseline": 1.18,
+    "Stage 6 - ESM-2 embedding generation": 1.6,
+    "Stage 7 - embedding sanity checks": 16.68,
+    "Stage 9 - head training": 17.08,
+    "Stage 10 - evaluation": 2.8,
+    "Stage 11 - DIAMOND baseline": 0.98,
+    "Stage 13 - tables and figures": 0.32
+  },
+  "input_files_sha256": {
+    "split10_test_split_0_curate.csv": "293f0178f3f7b261a844e1c1322f3fd78fb9fe24f09d1bb8ddad99ccb9246d21",
+    "split10_train_split_0.csv": "3982a632bf9270d8853f188066f20f6115b2b4ec06bf45d7985fcc51e42a8d9a",
+    "split100_test_split_0_curate.csv": "616c31e950b930845c028f36124f56ea16331a03b290cc0155bac9265c852e54",
+    "split100_train_split_0.csv": "978d7a4766db830a72f06cab43ae6b91ed7896a58da6108d0ee5fb14e47855eb",
+    "split30_test_split_0_curate.csv": "8225edca8aee31e374a7f3657edd733a62413b31f2cd65a98b671898d5df9327",
+    "split30_train_split_0.csv": "ab8a8a21219aec19ba03dd7205dec8d8c1a156ff5cfad23aad344c7d7fbdd9c1",
+    "split50_test_split_0_curate.csv": "c9e10e91a3d45a03cd594b1f79a3231ae73c23b2d1214284fe2804ec56687199",
+    "split50_train_split_0.csv": "61c9714b678988e27fcda97cead2edb15c2601d3bd38196c578d36f5e91778df",
+    "split70_test_split_0_curate.csv": "4a8e35517377283cd7fa6ef6b67410705e6a4fd6d8eac5074cd19a4c572ce82d",
+    "split70_train_split_0.csv": "4c17388ac6895f32c9614fdd0d7ad2f6971b8c797784a2bf7fe6ac50400a6a17"
+  },
+  "figures": [
+    "fig1",
+    "fig2",
+    "fig3",
+    "fig4",
+    "fig5"
+  ]
+}
