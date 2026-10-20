@@ -1,0 +1,20 @@
+{
+  "fasta_records": 108279,
+  "classes_kept": 791,
+  "run_a": {
+    "train_rows": 51569,
+    "test_rows": 47979,
+    "test_classes": 775,
+    "accuracy": 0.2777881990037308,
+    "macro_f1": 0.15568072758549248,
+    "test_rows_that_are_training_rows": 26161,
+    "leak_pct": 54.53
+  },
+  "run_b": {
+    "train_rows": 51569,
+    "test_rows": 40459,
+    "test_classes": 297,
+    "accuracy": 0.2992906399070664,
+    "macro_f1": 0.15617888525390636
+  }
+}
